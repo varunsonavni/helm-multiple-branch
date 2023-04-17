@@ -15,7 +15,7 @@ service:
   targetPort: 80
 
 secret_values:
-  CORALPAY_API_PASSWORD: "cd80670673372851f166743439b52b8bfdf26fe5b1f14a7fb4dd4f8bd3bda2500f08bffa6c980bbrdekfdsfdac52"
+  CORALPAY_API_PASSWORD: "cd80670673372851f166743439b52b8bfdf26fe5b1f14a7fb4dd4f8bd3bda2500f08bffa6c980bbac52"
   API: "HElLO"
 cf_values:
   NODE_ENV: "development"
