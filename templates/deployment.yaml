@@ -25,7 +25,7 @@ spec:
         {{- toYaml  .Values.imagePullSecrets | nindent 8 }}      
       containers:
       - name: {{ .Values.image.name }}
-        image: {{ .Values.image.repository }}
+        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
         imagePullPolicy: {{ .Values.image.pullpolicy }}
         envFrom:
         - configMapRef:

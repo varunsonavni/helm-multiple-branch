@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   name: nginx
-  tag: latest
+  tag: stable-alpine3.17-slim
   repository: nginx
   pullpolicy: "Always"
 
